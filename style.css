@@ -108,3 +108,12 @@ align-items: center;
 .second {
     background-color: #FFFFFF;
 }
+
+.random {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 30px;
+}
