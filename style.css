@@ -6,6 +6,13 @@ display: flex;
 flex-direction: column;
 }
 
+html {
+    box-sizing: border-box;
+  }
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
 .first {
 background-color: #1F2937;
 }
@@ -42,7 +49,7 @@ color: #f9faf8;
 
 .main { 
 font-size: 48px;
-font-size: bolder;
+font-weight: bolder;
 color: #f9faf8;
 }
 
@@ -56,4 +63,39 @@ color: #E5E7EB;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 25px;
+    margin: 25px;
+}
+
+.middle {
+    display: flex;
+    flex-shrink: 2;
+    flex-wrap: wrap;
+}
+
+.vid {
+    display: flex;
+    flex-shrink: 2;
+}
+
+button {
+background-color: #3882F6;
+border: 0px;
+color: #FFFFFF;
+font-weight: bold;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 6px;
+padding-bottom: 6px;
+border-bottom-left-radius: 8px;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+border-bottom-right-radius: 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.middle button {
+    margin-top: 5px;
 }
