@@ -51,11 +51,14 @@ color: #f9faf8;
 font-size: 48px;
 font-weight: bolder;
 color: #f9faf8;
+padding-bottom: 5px;
+width: 400px;
 }
 
 .secondary {
 font-size: 18px;
-color: #E5E7EB;  
+color: #E5E7EB; 
+width: 325px; 
 }
 
 .first2 {
@@ -63,8 +66,9 @@ color: #E5E7EB;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 25px;
+    padding: 50px;
     margin: 25px;
+    gap: 20px;
 }
 
 .middle {
@@ -76,6 +80,7 @@ color: #E5E7EB;
 .vid {
     display: flex;
     flex-shrink: 2;
+    margin-left: 20px;
 }
 
 button {
