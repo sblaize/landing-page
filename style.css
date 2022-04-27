@@ -47,9 +47,20 @@ text-decoration: none;
 color: #f9faf8;
     }
 
-.main {font-size: 48px;font-weight: bolder;color: #f9faf8;padding-bottom: 5px;width: 100%;}
+.main {font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    padding-bottom: 5px;
+    width: 100%;
+}
 
-.secondary {font-size: 18px;color: #E5E7EB;width: 100%;padding: 2px;padding-right: 25%;}
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 100%;
+    padding: 2px;
+    padding-right: 50%;
+}
 
 .first2 {
     display: flex;
