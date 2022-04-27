@@ -117,3 +117,8 @@ align-items: center;
     padding: 30px;
     margin: 30px;
 }
+
+img {
+    height: auto;
+    width: 250px;
+}
