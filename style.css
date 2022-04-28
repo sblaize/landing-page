@@ -121,6 +121,7 @@ align-items: center;
 img {
     height: 150px;
     width: 150px;
+    border-radius: 25%;
 }
 
 .images {
@@ -130,4 +131,11 @@ padding: 10px;
 justify-content: center;
 align-items: center;
 gap: 50px;
+}
+
+.descriptions {
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 500;
 }
