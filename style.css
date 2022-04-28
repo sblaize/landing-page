@@ -114,11 +114,20 @@ align-items: center;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 30px;
-    margin: 30px;
+    padding: 15px;
+    margin: 15px;
 }
 
 img {
-    height: auto;
-    width: 250px;
+    height: 150px;
+    width: 150px;
+}
+
+.images {
+display: flex;
+flex-direction: row;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 50px;
 }
