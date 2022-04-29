@@ -142,6 +142,9 @@ gap: 50px;
 
 .third {
     background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .quote {
@@ -149,9 +152,9 @@ gap: 50px;
     font-weight: lighter;
     color: #1F2937;
     text-align: center;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-bottom: 5px;
 }
 
@@ -162,4 +165,14 @@ gap: 50px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
+    display: flex;
+    align-self: flex-end;
+}
+
+.mj {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
 }
