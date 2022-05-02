@@ -194,11 +194,17 @@ align-items: center;
 
 .coa {
     background-color: #3882F6;
-    color: #E5E7EB
+    color: #E5E7EB;
+    margin: 20px;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 25px;
 }
 
 .call {
-
+font-weight: bolder;
+font-size: large;
 }
 
 .signup {
@@ -206,6 +212,9 @@ align-items: center;
 }
 
 .fourth button {
-border: 5px #E5E7EB;
+border: #1F2937;
+}
+
+.w {
 
 }
