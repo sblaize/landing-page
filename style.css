@@ -200,6 +200,8 @@ align-items: center;
     padding-left: 100px;
     padding-right: 100px;
     border-radius: 25px;
+    display: flex;
+    flex: 1;
 }
 
 .call {
@@ -207,14 +209,13 @@ font-weight: bolder;
 font-size: large;
 }
 
-.signup {
-
-}
 
 .fourth button {
 border: #1F2937;
 }
 
-.w {
-
+.w  {
+display: flex;
+flex-direction: row;
+flex: 1;
 }
