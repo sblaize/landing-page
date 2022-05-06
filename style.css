@@ -209,7 +209,7 @@ align-items: center;
 }
 
 
-.signup {
+signup {
 border: #1F2937;
 align-items: center;
 }
@@ -221,7 +221,3 @@ flex: 1;
 align-items: center;
 }
 
-h2 {
-font-weight: bolder;
-font-size: large;
-}
