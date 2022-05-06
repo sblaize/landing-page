@@ -233,6 +233,6 @@ gap: 75px;
 footer {
     display: flex;
     flex-direction: row;
-
+    margin-top: auto;
 }
 
