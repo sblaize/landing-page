@@ -205,7 +205,9 @@ align-items: center;
 }
 
 .call {
-
+display: flex;
+flex-direction: column;
+gap: 3px;
 }
 
 
@@ -222,4 +224,7 @@ justify-content: space-around;
 gap: 75px;
 }
 
-
+.action {
+    font-weight: bolder;
+    font-size: 24px;
+}
